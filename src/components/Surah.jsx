@@ -25,7 +25,7 @@ const Surah = () => {
   return (
     <div className="flex flex-col lg:flex-row">
       <div className="w-full lg:w-1/4 bg-gray-200/10 p-10 overflow-y-auto">
-        <div className="lg:sticky lg:top-0">
+        <div className="lg:fixed lg:h-screen">
           <div className="flex flex-col gap-1 mb-4 text-gray-60 text-sm">
             <h2 className="text-3xl font-semibold mb-2">{surah.name_arabic}</h2>
             <h3>{surah.verse_count}</h3>
