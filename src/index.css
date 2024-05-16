@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black min-h-screen text-white;
+}
+
+h2 {
+  @apply text-lg text-green-600 font-semibold my-2;
+}
+
+p {
+  @apply text-sm text-gray-300;
+}
+/* Targeting WebKit-based browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; /* White background for the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; /* Black color for the scrollbar handle */
+}
